@@ -1,0 +1,94 @@
+body{
+    background-color: #F7ECDE;
+}
+
+
+
+@font-face {
+    font-family:'Pacifico-500' ;
+    src: url(../fonts/Pacifico-Regular.ttf);
+}
+@font-face {
+    font-family:'Righteous-500' ;
+    src: url(../fonts/Righteous-Regular.ttf);
+}
+h1{
+    font-family:'Pacifico-500' ;
+    z-index: 3;
+}
+.title .layer{
+    position: absolute;
+    height: 40%;
+    width: 17%;
+    bottom: 10%;
+    left: 41%;
+    background-color: #FEC260;
+    transition: all .5s;
+
+}
+h1:hover ~ .layer{
+    height: 70%;
+}
+
+.site{
+    border-bottom: black dotted .125rem;
+    border-top: black dotted .125rem;
+}
+.caption h3{
+font-family: 'Righteous-500';
+background: linear-gradient(#40A55B, #B2AC49);
+-webkit-background-clip: text; 
+    background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+
+}
+.caption span{
+font-size: 1.5625rem;
+}
+.caption .span-1{
+    color: #40A55B;
+}
+.caption .span-2{
+    color: #B2AC49;
+}
+
+#btnSubmit{
+    width: 13%;
+    background-color: #D1512D;
+    color: white;
+}
+.light-cont{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.light-cont .box{
+    width: 40%;
+    height: 40%;
+    background-color: white;
+        font-size: 20px;
+
+}
+.light-cont .box i{
+    color: brown;
+}
+
+#close{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+#close i{
+    font-size: 30px;
+    margin: 15px;
+    cursor: pointer;
+}
